@@ -41,6 +41,8 @@ public class Media {
         double valorConvert = valorEmDolares * valorRealEqvaDollar;
         System.out.println(String.format("O valor %.2f dollares convertindo em reais é igual a %.2f",valorEmDolares, valorConvert));
 
+                                ----------------------------------------------------------------------------------------------------------
+
         double precoOriginal = 735.53;
         double percentualDesconto = 0.045;
         double valorDescon = (precoOriginal * percentualDesconto);
@@ -48,6 +50,17 @@ public class Media {
         System.out.println(String.format("O valor sem desconto é R$ %.2f, e o valor com o desconto é R$ %.2f, o desconto foi de R$ %.2f",precoOriginal, precoComdescn, valorDescon ));*/
 
 
+                                ----------------------------------------------------------------------------------------------------------
+        
+        double temperatura = 264.56;
+        double fahrenheit =(temperatura * 1.8) + 32;
+
+        System.out.println ("A temperatura " + temperatura+ " graus Celsius, convertida em Fahrenheit é " +fahrenheit+ " graus");
+        System.out.println(String.format ("A temperatura %.2f graus Celsius, convertida em Fahrenheit é %.2f graus",temperatura ,fahrenheit ));
+
+        int fahrenheitinte = (int)fahrenheit;
+
+        System.out.println(String.format ("A temperatura inteira em Fahrenheit é %d graus ", fahrenheitinte ));*/
 
     }
 
