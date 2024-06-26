@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 public class Aprimoramento_Estudo1 {
     public static void main(String[] args) {
+        
         Scanner numero = new Scanner(System.in);
-        /*int num = 0;
+        
+        
+        //------------------------------------------------------Verificação número positivo ou negativo-----------------------------------------------------
         System.out.println("Digite um número, e irei informar se ele é positivo ou negativo");
         num = numero.nextInt();
         if(num >= 0){
@@ -11,6 +14,9 @@ public class Aprimoramento_Estudo1 {
         } else{
             System.out.println(String.format("Este número %d é negativo!", num));
         }
+        
+        
+        //-----------------------------------------------------Comparação de igualdade/diferença qual é maior ou menor------------------------------------
         int primeiro = 0;
         int segundo = 0;
         System.out.println("""
@@ -31,6 +37,9 @@ public class Aprimoramento_Estudo1 {
             System.out.println(String.format("O número %d é menor que o %d",primeiro, segundo));
         } else {
          }
+        
+
+        //-----------------------------------------------------Escolha calcular área de quadrado ou circulo-----------------------------------------------------
         int escolha1 = 0;
         int escolha2 = 0;
         int quadrado = 0;
@@ -49,8 +58,10 @@ public class Aprimoramento_Estudo1 {
             System.out.println("OK! Vamos calcular a área do círculo, para isso por gentileza informar a medida");
             circulo = numero.nextInt();
             System.out.println("A área do círculo é de " + 3.14*(circulo*circulo));
+            
         }
 
+             //-----------------------------------------------------Tabuada 1 a 10 com Switch----------------------------------------------------
         int digit = 0;
 
         System.out.println("Quer saber alguma tabuada de 1 a 10? Basta informar o número que deseja, para conhecer sua tabuada");
@@ -195,7 +206,9 @@ public class Aprimoramento_Estudo1 {
 
         System.out.println("A tabuada do " + digit + " é " + tabuada);*/
 
-        /*---------------Código verificar se número é par ou impar-------------------------
+        
+
+        //-----------------------------------------------------Código verificar se número é par ou impar-----------------------------------------------------
 
         int testeParImpar = 0;
 
@@ -207,8 +220,9 @@ public class Aprimoramento_Estudo1 {
         } else{
             System.out.println("O número " + testeParImpar+ " é impar");
         }
+        
 
-        ---------------Código calculo de fatorial -------------------------*/
+        //-----------------------------------------------------Código calculo de fatorial-----------------------------------------------------
 
         int fatorial = 0;
         int calculo =(0);
